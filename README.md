@@ -11,6 +11,7 @@ bert-base-chinese
 抽取式摘要更改了相似度计算公式为余弦相似度，并且引入主题词权重和关键词权重(bert_textrank_ida.py)
 声称是摘要使用bert用作编码器，bart模型进行摘要任务的训练，并在训练语句中结合了提示词和textrank算法提取的关键词辅助提升模型整体摘要效果(bart_test.py)
 使用vue和flask实现了前后端，可以发布在线网页
+有任何问题欢迎邮箱联系我, kgmn69@durham.ac.uk
 
 Graduation project open source code
 Realized extractive Chinese text summarization and generative Chinese text summarization
@@ -29,3 +30,6 @@ Both extractive and generative summarization methods were designed. The extracti
 The generative summarization uses BERT as an encoder, and the BART model for the summarization task. During training, it incorporates prompt words and keywords extracted by the TextRank algorithm to enhance the model’s overall summarization effectiveness (bart_test.py).
 
 Vue and Flask were used to implement the frontend and backend, enabling the deployment of an online webpage.
+Welcome any question~ kgmn69@durham.ac.uk
+![Project Screenshot](show_web.png)
+![Project Screenshot](examples.png)
