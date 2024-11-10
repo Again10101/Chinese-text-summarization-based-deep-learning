@@ -31,5 +31,8 @@ The generative summarization uses BERT as an encoder, and the BART model for the
 
 Vue and Flask were used to implement the frontend and backend, enabling the deployment of an online webpage.
 Welcome any question~ kgmn69@durham.ac.uk
+
+
+
 ![Project Screenshot](show_web.png)
 ![Project Screenshot](examples.png)
