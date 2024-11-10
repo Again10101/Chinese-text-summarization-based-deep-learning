@@ -1,4 +1,6 @@
-# Text-Summary
+毕业设计开源代码
+分别实现了抽取式中文文本摘要和生成式中文文本摘要
+
 使用的数据集为nlpcc2017的clean版本，可自行网上下载，文件太大，不好传输，是开源的
 可能涉及到的预训练模型为
 bart-base-chinese
@@ -10,6 +12,8 @@ bert-base-chinese
 声称是摘要使用bert用作编码器，bart模型进行摘要任务的训练，并在训练语句中结合了提示词和textrank算法提取的关键词辅助提升模型整体摘要效果(bart_test.py)
 使用vue和flask实现了前后端，可以发布在线网页
 
+Graduation project open source code
+Realized extractive Chinese text summarization and generative Chinese text summarization
 
 The dataset used is the clean version of NLPCC 2017, which can be downloaded online as it is open-source. The file is too large for easy transfer.
 
